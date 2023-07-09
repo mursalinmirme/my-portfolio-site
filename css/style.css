@@ -592,7 +592,7 @@ body {
   width: 40%;
 }
 .skill-right ul li .skill-progress-bottom .reactjsProg:before {
-  width: 1%;
+  width: 5%;
 }
 .skill-right ul li .skill-progress-bottom .nodejsProg:before {
   width: 0.5%;
