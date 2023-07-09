@@ -92,16 +92,15 @@ body {
 }
 .topbar-center .menu-wrap ul li a {
   /* color: #000000; */
-  color: rgb(27, 64, 227);
+  color: #363535;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
-  /* background-color: green; */
-  transition: 1s linear;
 }
 
 .topbar-center .menu-wrap ul li:hover a {
   color: green;
+  font-weight: 700;
 }
 .topbar-right {
   width: 15%;
