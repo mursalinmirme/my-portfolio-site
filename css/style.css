@@ -775,18 +775,24 @@ body {
   height: 100%;
   transition: all 0.5s linear;
 }
-.portfolio-inner .swiper .swiper-wrapper .swiper-slide h4 {
+.portfolio-inner .swiper .swiper-wrapper .swiper-slide .projects-descript a{
+  text-decoration: none;
+  color: #202020;
+}
+.portfolio-inner .swiper .swiper-wrapper .swiper-slide .projects-descript a h4 {
   font-size: 23px;
   padding: 15px 0px 0px;
   font-family: "Inter", sans-serif;
   line-height: 35px;
   /* background: red; */
+  color: #202020;
 }
-.portfolio-inner .swiper .swiper-wrapper .swiper-slide span {
+.portfolio-inner .swiper .swiper-wrapper .swiper-slide .projects-descript a span {
   /* background-color: green; */
   font-size: 16px;
   font-weight: 500;
   color: #4a4949;
+  font-weight: 600;
 }
 .swipperButtonsWrep {
   text-align: center;
