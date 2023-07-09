@@ -306,10 +306,17 @@
   
     .services-inner .services-card {
       margin-bottom: 15px;
-      width: 86%;
-      margin-left: 7%;
+      width: 92%;
+      margin-left: 4%;
+      padding: 50px 20px 40px;
     }
-  
+    .services-inner .services-card:hover{
+      transform: translate(0px, 5px);
+      box-shadow: rgba(136, 165, 191, 0.48) 2px 2px 16px 0px;
+    }
+
+
+
     .services-inner .services-card p {
       letter-spacing: 0.2px;
       line-height: 25px;

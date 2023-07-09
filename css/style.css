@@ -666,6 +666,10 @@ body {
   position: relative;
   /* overflow: hidden; */
 }
+.services-inner .services-card:hover .servic-card-icon {
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 .services-inner .services-card .servic-card-icon:after {
   content: "";
   position: absolute;
