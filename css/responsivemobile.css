@@ -353,21 +353,23 @@
       width: 60px;
       height: 60px;
       top: -123px;
-      left: 84px;
+      left: 70px;
     }
     .testimonialFadeImg {
       width: 180px;
       height: 180px;
+      left: 90px;
     }
     .testimonialFadeImg .swiper .swiper-wrapper .swiper-slide img {
       width: 100%;
       height: 100%;
     }
     .testi-slide-left-bgs .tbrd1 {
-      width: 235px;
-      height: 235px;
-      margin-left: 0px;
+      width: 200px;
+      height: 200px;
+      margin-left: -40px;
       margin-top: 0px;
+      border: 1px solid green;
     }
     .testi-slide-left-bgs .tbg5 {
       width: 60px;
@@ -377,16 +379,17 @@
     }
   
     .testi-slide-left-bgs .tbrd2 {
-      width: 300px;
-      height: 300px;
+      width: 260px;
+      height: 260px;
       margin-top: 0px;
-      margin-left: 0px;
+      margin-left: -40px;
+      border: 1px solid blue;
     }
   
     .testi-slide-left-bgs .tbrd3 {
       width: 320px;
       height: 320px;
-      /* margin-left: -38px; */
+      margin-left: -38px;
       margin-top: 0px;
       border: 1px solid red;
   
@@ -396,12 +399,12 @@
   
     }
   
-    .testi-slide-left-bgs .tbg3 {
+    /* .testi-slide-left-bgs .tbg3 {
       width: 40px;
       height: 40px;
       top: 333px;
       left: 448px;
-    }
+    } */
   
     .testi-slide-left-bgs .tbg4 {
       width: 40px;
@@ -416,7 +419,7 @@
       width: 40px;
       height: 40px;
       top: 42px;
-      left: 115px;
+      left: 95px;
     }
   
     .testi-slide-left-bgs .tbg4 {
