@@ -705,9 +705,9 @@ body {
   color: #202020;
 }
 .services-inner .services-card p {
-  text-align: center;
-  padding-top: 2px;
-  color: #404040;
+  text-align: justify;
+  padding-top: 7px;
+  color: #303030;
   font-size: 16px;
   font-family: "Inter", sans-serif;
   line-height: 25px;
