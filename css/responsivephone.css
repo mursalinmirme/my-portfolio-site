@@ -384,11 +384,10 @@
   }
 
   .testi-slide-left-bgs .tbrd3 {
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
     /* margin-left: -38px; */
     margin-top: 0px;
-    border: 1px solid red;
 
     display: flex;
     align-items: center;
