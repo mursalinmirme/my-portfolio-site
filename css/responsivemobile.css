@@ -369,7 +369,7 @@
       height: 200px;
       margin-left: -40px;
       margin-top: 0px;
-      border: 1px solid green;
+      /* border: 1px solid green; */
     }
     .testi-slide-left-bgs .tbg5 {
       width: 60px;
@@ -383,7 +383,7 @@
       height: 260px;
       margin-top: 0px;
       margin-left: -40px;
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
     }
   
     .testi-slide-left-bgs .tbrd3 {
@@ -391,8 +391,7 @@
       height: 320px;
       margin-left: -38px;
       margin-top: 0px;
-      border: 1px solid red;
-  
+      /* border: 1px solid red; */
       display: flex;
       align-items: center;
       justify-content: center;
