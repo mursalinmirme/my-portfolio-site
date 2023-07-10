@@ -42,7 +42,7 @@ window.addEventListener('scroll', function(e){
             fadeInDivs[i].classList.add('activeFadeIn')
         }
         else{
-            fadeInDivs[i].classList.remove(activeFadeIn)
+            fadeInDivs[i].classList.remove('activeFadeIn')
         }
     }
 })

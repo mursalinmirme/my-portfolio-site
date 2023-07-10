@@ -19,7 +19,7 @@
       background: rgba(0, 0, 0, 0.578);
       height: 100%;
       transition: 0.5s all linear;
-      display: none;
+      /* display: none; */
     }
     .activeMenu {
       left: 0;

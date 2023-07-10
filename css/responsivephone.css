@@ -12,14 +12,14 @@
   }
   .topbar-center {
     position: fixed;
-    top: 60px;
+    top: 55px;
     left: -778px;
     width: 100%;
     /* background: #2e2f35; */
     background: rgba(0, 0, 0, 0.578);
     height: 100%;
     transition: 0.5s all linear;
-    display: none;
+    /* display: none; */
   }
   .activeMenu {
     left: 0;
