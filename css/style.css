@@ -17,7 +17,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  width: 1536px;
   overflow-x: hidden;
   background: #ffff;
 }
@@ -33,7 +32,7 @@ body {
   background: #efeeee;
 }
 .container {
-  width: 1400px;
+  max-width: 1400px;
   /* background: tomato; */
   margin: auto;
 }
