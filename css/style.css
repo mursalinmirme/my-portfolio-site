@@ -896,8 +896,8 @@ body {
   font-family: "Inter", sans-serif;
   line-height: 35px;
   /* background: red; */
-  color: #202020;
-  color: red;
+  color: #272626;
+  font-weight: 600;
 }
 .practice-inner .swiper .swiper-wrapper .swiper-slide .projects-descript .myprojectslinks span {
   /* background-color: green; */
@@ -905,6 +905,13 @@ body {
   font-weight: 500;
   color: #4a4949;
   font-weight: 600;
+}
+.practice-inner .swiper .swiper-wrapper .swiper-slide .projects-descript .myprojectslinks p {
+  /* background-color: green; */
+  margin: 5px 0;
+}
+.practice-inner .swiper .swiper-wrapper .swiper-slide .projects-descript .myprojectslinks p .mateName {
+  color: #11b92d;
 }
 .pracSwipperButtonsWrep {
   text-align: center;
