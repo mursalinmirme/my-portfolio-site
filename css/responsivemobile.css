@@ -711,7 +711,15 @@
       padding-bottom: 25px;
       padding-top: 30px;
     }
-  
+    .pracSwipperButtonsWrep {
+      display: none;
+    }
+    .pracSwiperPaginationWrap {
+      margin-top: 50px;
+    }
+    .pracSwiperPaginationWrap {
+      display: block;
+    }
     .swipperButtonsWrep {
       display: none;
     }
