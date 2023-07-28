@@ -332,7 +332,7 @@
       padding: 35px 0px;
     }
     .portfolio-inner {
-      padding: 10px;
+      padding: 0px;
     }
     .portfolio-inner .swiper .swiper-wrapper .swiper-slide {
       display: block;
@@ -340,6 +340,17 @@
     }
     .portfolio-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep {
       width: 440px;
+    }
+    .practice-inner {
+      padding: 0px;
+    }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide {
+      display: block;
+      max-width: 440px !important;
+    }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep {
+      width: 440px;
+      
     }
     .testi-slide-wrap {
       display: block;
@@ -755,9 +766,37 @@
       font-weight: 400;
       font-family: "Inter", sans-serif;
     }
-    .portfolio-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
+
+
+
+    .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
       border-radius: 7px;
     }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide h4 {
+      font-size: 19px;
+      font-weight: 600;
+      padding: 19px 0px 0px;
+      line-height: 30px;
+      color: #303030;
+      margin-bottom: 5px;
+    }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide h4:hover {
+      color: #000000;
+    }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide span {
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Inter", sans-serif;
+    }
+    .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
+      border-radius: 7px;
+    }
+
+
+
+
+
+
     .my-img img {
       height: 100%;
     }

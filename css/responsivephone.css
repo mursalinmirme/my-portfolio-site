@@ -65,7 +65,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-}
+  }
 
   .topbar-left {
     width: 60%;
@@ -325,7 +325,7 @@
     padding: 35px 0px;
   }
   .portfolio-inner {
-    padding: 10px;
+    padding: 0px;
   }
   .portfolio-inner .swiper .swiper-wrapper .swiper-slide {
     display: block;
@@ -335,7 +335,7 @@
     width: 440px;
   }
   .practice-inner {
-    padding: 10px;
+    padding: 0px;
   }
   .practice-inner .swiper .swiper-wrapper .swiper-slide {
     display: block;
@@ -402,7 +402,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
   }
 
   .testi-slide-left-bgs .tbg3 {
@@ -785,12 +784,12 @@
     font-weight: 400;
     font-family: "Inter", sans-serif;
   }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep {
+    height: 410px;
+  }
   .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
     border-radius: 7px;
   }
-
-
-
 
   .my-img img {
     height: 100%;
@@ -841,11 +840,3 @@
     margin-top: 100px;
   }
 } /* mobile responsive */
-
-
-
-
-
-
-
-
