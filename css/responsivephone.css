@@ -334,6 +334,16 @@
   .portfolio-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep {
     width: 440px;
   }
+  .practice-inner {
+    padding: 10px;
+  }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide {
+    display: block;
+    max-width: 440px !important;
+  }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep {
+    width: 440px;
+  }
   .testi-slide-wrap {
     display: block;
   }
@@ -701,6 +711,15 @@
     padding-bottom: 25px;
     padding-top: 30px;
   }
+  .practice-sec-wrap .section-title .skill-title h4 {
+    font-size: 27px;
+    font-weight: 600;
+    color: #202020;
+  }
+  .practice-sec-wrap .section-title .skill-title {
+    padding-bottom: 25px;
+    padding-top: 30px;
+  }
 
   .swipperButtonsWrep {
     display: none;
@@ -709,6 +728,15 @@
     margin-top: 50px;
   }
   .swiperPaginationWrap {
+    display: block;
+  }
+  .pracSwipperButtonsWrep {
+    display: none;
+  }
+  .pracSwiperPaginationWrap {
+    margin-top: 50px;
+  }
+  .pracSwiperPaginationWrap {
     display: block;
   }
   /* custmm bullets style */
@@ -740,6 +768,29 @@
   .portfolio-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
     border-radius: 7px;
   }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide h4 {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 19px 0px 0px;
+    line-height: 30px;
+    color: #303030;
+    margin-bottom: 5px;
+  }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide h4:hover {
+    color: #000000;
+  }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide span {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+  .practice-inner .swiper .swiper-wrapper .swiper-slide .slide-img-wrep img {
+    border-radius: 7px;
+  }
+
+
+
+
   .my-img img {
     height: 100%;
   }

@@ -1,111 +1,108 @@
 /* X-Large devices (large desktops, less than 1400px)*/
-@media screen and (max-width: 1400px) { 
-    body{
-        /* max-width: 768px; */
-        max-width: 100%;
-        height: auto;
-        /* overflow-x: hidden; */
-        background: rgb(255, 255, 255);
+@media screen and (max-width: 1400px) {
+  body {
+    /* max-width: 768px; */
+    max-width: 100%;
+    height: auto;
+    /* overflow-x: hidden; */
+    background: rgb(255, 255, 255);
+  }
+  .container {
+    max-width: 93%;
+  }
 
-        
-    } 
-    .container {
-        max-width: 93%;
-    }
+  .home-left .home-gretting span {
+    font-size: 50px;
+  }
 
-    .home-left .home-gretting span {
-        font-size: 50px;
-    }
-    
-    .home-left .home-name h1 {
-        font-size: 70px;
-    }
-    .home-left .home-desc p {
-        font-size: 17px;
-    }
-    
-    .my-img {
-        width: 500px;
-        height: 500px;
-    }
-    
-    .pro-img-log-bg1 {
-        left: -6px;
-    }
-    
-    .pro-img-log-bg2 {
-        right: -8px;
-    }
-    
-    .my-img .profile-picture-logos .project-complete-logo {
-        bottom: 35px;
-    }
-    
-    .pro-img-log-bg3 {
-        right: 24px;
-        top: 362px;
-    }
-    .home-left .home-desc p {
-        font-size: 17px;
-    }
-    
-    .my-img {
-        width: 500px;
-        height: 500px;
-    }
-    
-    .pro-img-log-bg1 {
-        left: -6px;
-    }
-    
-    .pro-img-log-bg2 {
-        right: -8px;
-    }
-    
-    .my-img .profile-picture-logos .project-complete-logo {
-        bottom: 35px;
-    }
-    
-    .pro-img-log-bg3 {
-        right: 24px;
-        top: 362px;
-    }
-    
-    .aboutWrap {
-        width: 93%;
-        margin: auto;
-        /* background: yellow; */
-    }
-    
-    .aboutWrap .about-left .about-left-wrap .about-left-bg {
-        width: 300px;
-        margin-left: 83px;
-    }
-    
-    .aboutWrap .about-left .about-left-wrap .about-left-bg img {
-        width: 315px;
-    }
-    
-    .aboutWrap .about-left .about-left-wrap .about-left-bg:before {
-        width: 298px;
-        height: 325px;
-        top: 164px;
-    }
-    
-    .aboutWrap .about-left .about-left-wrap .about-left-bg:after {
-        width: 300px;
-        height: 300px;
-        top: 51px;
-    }
-    .skill-wrapper {
-        max-width: 100%;
-    }
-    .services-inner .services-card {
-        margin-left: 50px;
-    }
-    
-    .footer-bottom .footer-copyright {
-        padding: 30px 0px;
-    }
+  .home-left .home-name h1 {
+    font-size: 70px;
+  }
+  .home-left .home-desc p {
+    font-size: 17px;
+  }
 
- } /*End extra large breakpoint brackets */
+  .my-img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .pro-img-log-bg1 {
+    left: -6px;
+  }
+
+  .pro-img-log-bg2 {
+    right: -8px;
+  }
+
+  .my-img .profile-picture-logos .project-complete-logo {
+    bottom: 35px;
+  }
+
+  .pro-img-log-bg3 {
+    right: 24px;
+    top: 362px;
+  }
+  .home-left .home-desc p {
+    font-size: 17px;
+  }
+
+  .my-img {
+    width: 500px;
+    height: 500px;
+  }
+
+  .pro-img-log-bg1 {
+    left: -6px;
+  }
+
+  .pro-img-log-bg2 {
+    right: -8px;
+  }
+
+  .my-img .profile-picture-logos .project-complete-logo {
+    bottom: 35px;
+  }
+
+  .pro-img-log-bg3 {
+    right: 24px;
+    top: 362px;
+  }
+
+  .aboutWrap {
+    width: 93%;
+    margin: auto;
+    /* background: yellow; */
+  }
+
+  .aboutWrap .about-left .about-left-wrap .about-left-bg {
+    width: 300px;
+    margin-left: 83px;
+  }
+
+  .aboutWrap .about-left .about-left-wrap .about-left-bg img {
+    width: 315px;
+  }
+
+  .aboutWrap .about-left .about-left-wrap .about-left-bg:before {
+    width: 298px;
+    height: 325px;
+    top: 164px;
+  }
+
+  .aboutWrap .about-left .about-left-wrap .about-left-bg:after {
+    width: 300px;
+    height: 300px;
+    top: 51px;
+  }
+  .skill-wrapper {
+    max-width: 100%;
+  }
+  .services-inner .services-card {
+    margin-left: 50px;
+  }
+
+  .footer-bottom .footer-copyright {
+    padding: 30px 0px;
+  }
+} /*End extra large breakpoint brackets */

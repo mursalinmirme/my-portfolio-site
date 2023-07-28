@@ -599,9 +599,9 @@
     </section>
     <!-- Works section end -->
     <!-- My practice projects showing start -->
-    <section id="portfolio">
+    <section id="practice-sec">
       <div class="container">
-        <div class="portfolio-wrap">
+        <div class="practice-sec-wrap">
           <div class="section-title">
             <span>Practices</span>
             <span class="about-me-bottom"></span>
@@ -609,11 +609,11 @@
               <h4>Practical Projects From The Beginning Until Now</h4>
             </div>
           </div>
-          <div class="portfolio-inner">
+          <div class="practice-inner">
             <!-- Slider main container -->
             <div class="swiper">
               <!-- Additional required wrapper -->
-              <div class="swiperWrapper swiper-wrapper">
+              <div class="practiceswiperWrapper swiper-wrapper">
                 <!-- Single project Slides 1 -->
                 <div class="swiper-slide swiperSlide">
                   <div class="slide-img-wrep">
@@ -624,47 +624,89 @@
                       class="myprojectslinks"
                       href="./my-projects/influencer-gear/index.html"
                     >
-                      <h4>Digital Agency - HTML5, CSS3 Templete Design</h4>
-                      <span>Digital Agency / Agency website Templete</span>
+                      <h4>Project 01 : Digital Agency</h4>
+                      <p style="margin-top: 5px; margin-bottom: 5px">
+                        <b>Materials:-HTML, CSS</b>
+                      </p>
+                      <span>Date: 25 May 2023</span>
                     </a>
                   </div>
                 </div>
-                <!-- Single project Slides 2 -->
+                <!-- Single project Slides 1 -->
                 <div class="swiper-slide swiperSlide">
                   <div class="slide-img-wrep">
-                    <img src="photos/portfolio_default.jpg" alt="" />
+                    <img src="photos/digital-agency.jpg" alt="" />
                   </div>
                   <div class="projects-descript">
-                    <a class="myprojectslinks" href="#">
-                      <h4>Digital Agency - HTML5, CSS3 Templete Design</h4>
-                      <span>Digital Agency / Agency website Templete</span>
+                    <a
+                      class="myprojectslinks"
+                      href="./my-projects/influencer-gear/index.html"
+                    >
+                      <h4>Project 01 : Digital Agency</h4>
+                      <p style="margin-top: 5px; margin-bottom: 5px">
+                        <b>Materials:-HTML, CSS</b>
+                      </p>
+                      <span>Date: 25 May 2023</span>
                     </a>
                   </div>
                 </div>
-                <!-- Single project Slides 3 -->
+                <!-- Single project Slides 1 -->
                 <div class="swiper-slide swiperSlide">
                   <div class="slide-img-wrep">
-                    <img src="photos/portfolio_default.jpg" alt="" />
+                    <img src="photos/digital-agency.jpg" alt="" />
                   </div>
                   <div class="projects-descript">
-                    <a class="myprojectslinks" href="#">
-                      <h4>Project 01 : HTML5, CSS3 Templete Design</h4>
-                      <span>Digital Agency / Agency website Templete</span>
+                    <a
+                      class="myprojectslinks"
+                      href="./my-projects/influencer-gear/index.html"
+                    >
+                      <h4>Project 01 : Digital Agency</h4>
+                      <p style="margin-top: 5px; margin-bottom: 5px">
+                        <b>Materials:-HTML, CSS</b>
+                      </p>
+                      <span>Date: 25 May 2023</span>
                     </a>
                   </div>
                 </div>
+                <!-- Single project Slides 1 -->
+                <div class="swiper-slide swiperSlide">
+                  <div class="slide-img-wrep">
+                    <img src="photos/digital-agency.jpg" alt="" />
+                  </div>
+                  <div class="projects-descript">
+                    <a
+                      class="myprojectslinks"
+                      href="./my-projects/influencer-gear/index.html"
+                    >
+                      <h4>Project 01 : Digital Agency</h4>
+                      <p style="margin-top: 5px; margin-bottom: 5px">
+                        <b>Materials:-HTML, CSS</b>
+                      </p>
+                      <span>Date: 25 May 2023</span>
+                    </a>
+                  </div>
+                </div>
+                
+
+
+
+
+
+
+
               </div>
+              <!---swipper-wrapper--->
               <!---swipper wrapper--->
               <!-- swiper pagination -->
-              <div class="swiperPaginationWrap">
-                <div class="swiper-pagination"></div>
+              <div class="pracSwiperPaginationWrap">
+                <div class="swiper-pagination swiper-pagination-practice"></div>
               </div>
               <!-- If we need navigation buttons -->
-              <div class="swipperButtonsWrep">
-                <div class="swipperConBtns swiperButtonPrev">
+              <div class="pracSwipperButtonsWrep">
+                <div class="pracswipperConBtns practiceButtonPrev">
                   <i class="fa-solid fa-caret-left"></i>
                 </div>
-                <div class="swipperConBtns swiperButtonNext">
+                <div class="pracswipperConBtns practiceButtonNext">
                   <i class="fa-solid fa-caret-right"></i>
                 </div>
               </div>
@@ -1142,6 +1184,7 @@
     <script src="js/block view.js"></script>
 
     <script>
+
       const swiper = new Swiper(".portfolio-inner .swiper", {
         loop: true,
         slidesPerView: 3,
@@ -1197,6 +1240,65 @@
           },
         },
       });
+
+      // practice sectionn slider
+      const swiperTwo = new Swiper(".practice-inner .swiper", {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        centerSlide: "true",
+        allowSlideNext: "true",
+        grabCursor: "true",
+        effect: "slide",
+        autoplay: {
+          delay: 5000,
+        },
+        navigation: {
+          nextEl: ".practiceButtonNext",
+          prevEl: ".practiceButtonPrev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          300: {
+            slidesPerView: 1,
+          },
+          400: {
+            slidesPerView: 1,
+          },
+          500: {
+            slidesPerView: 1,
+          },
+          700: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 40,
+          },
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1100: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+      // practice secton end
+
 
       const testImgswiper = new Swiper(".testimonialFadeImg .swiper", {
         pagePerViews: 1,
