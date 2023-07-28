@@ -1,0 +1,460 @@
+@media screen and (max-width: 576px) {
+  .header-container .logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .header-container .logo img {
+    height: 35px;
+  }
+  .header .header-container {
+    flex-direction: column;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav .nav-item-container {
+    flex-direction: column;
+  }
+  .nav .nav-item-container .nav-item {
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  /* header responsive end */
+
+  /* banner section mobile responsive start */
+  .banner {
+    background-position: bottom left 30px;
+    background-size: 100% 53%;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 80%;
+    padding-top: 80px;
+    padding-left: 65px;
+    /* background-color: rgb(221, 171, 236); */
+  }
+  .banner-content h3 {
+    font-size: 1.7rem;
+  }
+  .banner-content h2 {
+    font-size: 2.75rem;
+  }
+  .banner-content ul li {
+    font-size: 0.85rem;
+  }
+  .banner-content ul li i {
+    width: 30px;
+  }
+  .banner-content .banner-buttons {
+    justify-content: start;
+    padding-bottom: 80px;
+  }
+  .banner-content .banner-buttons button {
+    margin-right: 10px;
+    font-size: 0.8rem;
+    padding: 12px 20px;
+  }
+
+  /* banner section mobile responsive end */
+
+  /* about section mobile responstve code start*/
+  .about {
+    background: none;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .about-content {
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about-content .about-title {
+    font-size: 1.9rem;
+  }
+  .about-content .about-desc {
+    font-size: 1rem;
+  }
+  .about-content .about-btn {
+    font-size: 0.8rem;
+  }
+  .about-content .proverb-title {
+    font-size: 1.1rem;
+    margin-top: 50px;
+  }
+  .about-content .proverb-desc {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  /* about section mobile responstve code end*/
+
+  /* online video section responsive code start */
+  .online-video-container {
+    padding-top: 50px;
+  }
+  .online-video-container .video-sec-title {
+    font-size: 1.6rem;
+  }
+  .online-video-container .video-sec-desc {
+    font-size: 0.7rem;
+    margin-top: 15px;
+  }
+
+  .online-video-container .video-card-wrap {
+    margin-top: 20px;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .online-video-container .video-card-wrap .single-video {
+    width: 75%;
+    margin-top: 30px;
+  }
+  .video-card-wrap .single-video .video-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--primary-color);
+  }
+  /* online video section responsive code end */
+  /* games-option section mobile responsive code start */
+  .games-option-container {
+    padding-top: 50px;
+  }
+  .games-option-container .games-option-wrap {
+    flex-direction: column;
+  }
+  .games-option-container .games-option-wrap .games-option-content {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .games-option-container
+    .games-option-wrap
+    .games-option-content
+    .games-option-title {
+    font-size: 2.1rem;
+  }
+  .games-option-container
+    .games-option-wrap
+    .games-option-content
+    .games-option-desc {
+    font-size: 1.05rem;
+    line-height: 30px;
+    margin-top: 20px;
+    padding-left: 0;
+    padding: 0 30px;
+  }
+  .games-option-container .games-option-wrap .games-option-image {
+    width: 100%;
+    text-align: right;
+    margin-top: 40px;
+    padding-right: 20px;
+  }
+  .games-option-container .games-option-wrap .games-option-image img {
+    width: 75%;
+  }
+  .games-option-container .floating-image {
+    text-align: left;
+  }
+  .games-option-container .floating-image .games-option-float-img {
+    border-radius: 8px;
+    width: 50%;
+    height: 50%;
+    background-color: #ffffff;
+    margin-top: -150px;
+    margin-left: 10px;
+  }
+  /* games-option section mobile responsive code end */
+  /* games list styles mobile response code start here */
+  .games-list-container {
+    margin-top: 60px;
+  }
+  .games-list-wrapper {
+    gap: 10px;
+  }
+  .games-list-wrapper .single-game {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    /* width: 220px; */
+    padding: 3px;
+    margin-top: 15px;
+    border-radius: 50px;
+  }
+  .games-list-wrapper .single-game img {
+    width: 20px;
+    height: 20px;
+  }
+  .games-list-wrapper .single-game p {
+    font-size: 0.7rem;
+    margin-left: 5px;
+  }
+  .games-list-wrapper .single-game:hover {
+    border: 2px solid #f948b2;
+  }
+  /* games list mobile responsive styles code end here */
+
+  /* footer section responsive for mobile code start */
+  .footer {
+    margin-top: 60px;
+  }
+  .footer-wrapper {
+    padding-top: 70px;
+  }
+  .footer-wrapper .footer-logo {
+    gap: 10px;
+  }
+  .footer-wrapper .footer-logo img {
+    height: 40px;
+  }
+  .footer-wrapper .footer-logo h1 {
+    margin-left: 0px;
+    font-size: 2rem;
+  }
+  .footer-wrapper .footer-nav ul {
+    margin-top: 50px;
+  }
+  .footer-wrapper .footer-nav ul li {
+    list-style: none;
+    margin: 20px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .footer-wrapper .footer-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .footer-wrapper .footer-copyright {
+    margin-top: 30px;
+  }
+  /* footer section responsive for mobile code start */
+}
+
+/* end mobile version @query */
+@media screen and (min-width: 576px) and (max-width: 970px) {
+  .header-container .logo {
+    justify-content: center;
+  }
+  .header-container .logo img {
+    height: 35px;
+  }
+  .header .header-container {
+    flex-direction: column;
+  }
+  .nav .nav-item-container {
+    flex-direction: column;
+  }
+  .nav .nav-item-container .nav-item {
+    margin-top: 25px;
+    margin-left: 0px;
+  }
+  /* header responsive end */
+  /* banner section mobile responsive start */
+  .banner {
+    background-position: bottom left 50px;
+    background-size: 100% 42%;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-content {
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+  }
+  .banner-content h3 {
+    font-size: 1.75rem;
+  }
+  .banner-content h2 {
+    font-size: 3.3rem;
+  }
+  .banner-content ul li {
+    font-size: 1rem;
+  }
+  .banner-content ul li i {
+    width: 30px;
+  }
+  .banner-content .banner-buttons {
+    justify-content: start;
+    padding-bottom: 40px;
+  }
+  .banner-content .banner-buttons button {
+    margin: 0px 0px;
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 15px 25px;
+  }
+
+  /* banner section mobile responsive end */
+
+  /* about section mobile responstve code start*/
+  .about {
+    background: none;
+  }
+  .about-container {
+    flex-direction: column;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .about-content {
+    width: 70%;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about-content .about-title {
+    font-size: 1.9rem;
+  }
+  .about-content .about-desc {
+    font-size: 1rem;
+  }
+  .about-content .about-btn {
+    font-size: 0.8rem;
+  }
+  .about-content .proverb-title {
+    font-size: 1.1rem;
+    margin-top: 50px;
+  }
+  .about-content .proverb-desc {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  /* about section mobile responstve code end*/
+
+  /* online video section responsive code start */
+  .online-video-container {
+    padding-top: 50px;
+  }
+  .online-video-container .video-sec-title {
+    font-size: 1.9rem;
+  }
+  .online-video-container .video-sec-desc {
+    font-size: 0.8rem;
+  }
+
+  .online-video-container .video-card-wrap {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .online-video-container .video-card-wrap .single-video {
+    width: 35%;
+    margin-top: 30px;
+  }
+  .video-card-wrap .single-video .video-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: var(--primary-color);
+  }
+  /* online video section responsive code end */
+
+  /* games-option section mobile responsive code start */
+  .games-option-container {
+    padding-top: 80px;
+  }
+  .games-option-container .games-option-wrap {
+    flex-direction: column;
+  }
+  .games-option-container .games-option-wrap .games-option-content {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .games-option-container
+    .games-option-wrap
+    .games-option-content
+    .games-option-title {
+    font-size: 2.1rem;
+  }
+  .games-option-container
+    .games-option-wrap
+    .games-option-content
+    .games-option-desc {
+    font-size: 1.05rem;
+    line-height: 30px;
+    padding-left: 0;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .games-option-container .games-option-wrap .games-option-image {
+    width: 80%;
+    text-align: right;
+    margin-top: 40px;
+    padding-right: 30px;
+  }
+  .games-option-container .games-option-wrap .games-option-image img {
+    width: 70%;
+  }
+  .games-option-container .floating-image {
+    text-align: left;
+  }
+  .games-option-container .floating-image .games-option-float-img {
+    border-radius: 8px;
+    width: 30%;
+    height: 30%;
+    background-color: #ffffff;
+    margin-top: -200px;
+    margin-left: 100px;
+  }
+  /* games-option section mobile responsive code end */
+  /* games list section tablet responsive code start */
+  .games-list-wrapper .single-game img {
+    width: 40px;
+    height: 40px;
+  }
+  .games-list-wrapper .single-game p {
+    font-size: 1rem;
+  }
+  /* games list section tablet responsive code end */
+  /* footer section tablet responsive code start */
+  .footer-wrapper .footer-permission ul {
+    margin-top: 10px;
+  }
+}
+/* This code is written by Mursalin Mir */
