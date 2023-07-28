@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* nav bar styles code start */
+.nav {
+  padding: 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-size: 45px;
+  color: #181818;
+  font-weight: 800;
+}
+.logo h1 span {
+  color: #fd6e0a;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.nav-items > li {
+  list-style: none;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* banner */
+.header {
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: right bottom, top 2px left 23px;
+}
+.banner {
+  padding: 30px 30px 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-content h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+}
+.banner-content h1 {
+  font-size: 85px;
+  font-weight: 700;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.banner-content p {
+  font-size: 18px;
+  color: #757575;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.banner-content button {
+  margin-right: 15px;
+}
+.banner-content .contatc-btn {
+  background: none;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+/* nav bar styles code end */
+/* main tag styles code start */
+.main {
+  width: 1140px;
+  margin: 0 auto;
+}
+/* about section start */
+.about {
+  padding: 150px;
+  margin: 120px 0;
+  background-color: #fff8f3;
+}
+.about .about-title h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+}
+.about .about-desc p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  text-align: center;
+}
+.about-info-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-info-container .about-info {
+  text-align: center;
+}
+.about-info-container .about-info .info-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+}
+.about-info-container .about-info .info-desc {
+  font-size: 20px;
+  font-weight: 600;
+  color: #474747;
+}
+/* about section end */
+/* What I do / my experience section srart */
+.my-experience {
+}
+.my-experience .experience-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #181818;
+}
+.my-experience .experience-desc {
+  text-align: center;
+  padding: 0 115px;
+  font-size: 18px;
+  color: #757575;
+}
+.my-experience .skill-langues-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.my-experience .skill-langues-cards .single-cards {
+  width: 220px;
+  padding: 25px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.116);
+}
+.my-experience .skill-langues-cards .single-cards img {
+  width: 45px;
+  height: 45px;
+  margin: 20px 0;
+}
+.my-experience .skill-langues-cards .single-cards .react-img {
+  width: 50px;
+}
+.my-experience .skill-langues-cards .single-cards h3 {
+  font-size: 18px;
+  color: #181818;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.my-experience .skill-langues-cards .single-cards p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 28px;
+}
+
+/* What I do / my experience section end */
+
+/* A summary of my resume section design start */
+.summary-my-resume {
+}
+.summary-my-resume .my-summary-resume-title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 90px 0 60px;
+  color: #181818;
+}
+.summary-my-resume-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.my-education-skills,
+.my-experience-skills {
+  width: 511px;
+}
+.my-education-skills,
+.my-experience-skills .education-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #474747;
+  font-style: none;
+}
+.single-education-pass,
+.single-experience-company {
+  margin: 25px 0;
+}
+.single-education-pass .education-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #474747;
+}
+.single-education-pass .education-session {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin: 10px 0;
+}
+.single-education-pass .education-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 25px;
+}
+/* for experience company */
+
+.single-experience-company .company-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #474747;
+}
+.single-experience-company .job-experience-time {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin: 10px 0;
+}
+.single-experience-company .experience-from-company {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 25px;
+}
+.summary-cv-download-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+.summary-cv-download-btn .summery-sec-btn {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+/* A summary of my resume section design end */
+
+/* main tag styles code end */
+
+/* footer styles code start */
+.footer {
+  background: #fff8f3;
+  margin-top: 100px;
+}
+.footer-wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  padding: 120px 0;
+}
+.footer-messege-form h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.foother-connect-detail {
+  width: 50%;
+  padding: 0 80px;
+}
+.footer-messege-form {
+  width: 50%;
+  padding: 0 80px;
+}
+.footer-messege-form form {
+  width: 411px;
+}
+.footer-messege-form input {
+  width: 90%;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #474747;
+}
+.footer-messege-form textarea {
+  width: 90%;
+  resize: none;
+  height: 150px;
+  padding: 15px 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #474747;
+}
+.footer-messege-form button {
+  font-weight: 500;
+  font-size: 20px;
+}
+.foother-connect-detail {
+}
+.foother-connect-detail h3 {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.foother-connect-detail p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.foother-connect-detail .social-accounts a {
+  color: #fd6e0a;
+  padding: 10px;
+}
+
+/* Responsive for moble version start */
+
+@media screen and (max-width: 576px) {
+  .hide {
+    display: none;
+  }
+  .header {
+    background-position: right bottom, top 2px left -22223px;
+  }
+  .logo h1 {
+    font-size: 25px;
+  }
+  .nav {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .nav ul li {
+    font-size: 16px;
+  }
+  .nav ul {
+    flex-direction: column;
+  }
+  .btn-primary {
+    display: ;
+    font-size: 15px;
+  }
+  .banner {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .banner-content h3 {
+    font-size: 40px;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+  }
+  .banner .profile-pic {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main {
+    width: 100%;
+  }
+  .about {
+    padding: 50px 20px;
+    margin: 0;
+  }
+  .about .about-title h2 {
+    font-size: 25px;
+  }
+  .about-info-container {
+    flex-direction: column;
+  }
+  .about .about-desc p {
+  }
+  .about-info-container .about-info {
+    margin-bottom: 20px;
+  }
+  .my-experience{
+    margin-top: 30px;
+  }
+  .my-experience .experience-title{
+    font-size: 30px;
+  }
+  .my-experience .experience-desc{
+    padding: 20px;
+  }
+  .my-experience .skill-langues-cards{
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 5px 0px rgb(212 211 211 / 83%);
+  }
+  .summary-my-resume{
+    padding-top: 30px;
+  }
+  .my-experience .skill-langues-cards .single-cards{
+    margin-bottom: 20px;
+  }
+  .summary-my-resume .my-summary-resume-title{
+    padding: 20px;
+    font-size: 27px;
+  }
+  
+  .summary-my-resume-wrap{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .my-education-skills, .my-experience-skills{
+    width: 100%;
+    
+  }
+.footer-wrapper{
+    width: 100%;
+    padding: 60px 0;
+    flex-direction: column;
+}
+.foother-connect-detail{
+    width: 100%;
+    padding: 0 20px;
+}
+.footer-messege-form{
+    padding: 20px;
+    width: 100%;
+}
+.footer-messege-form form{
+    width: 100%;
+}
+.footer-messege-form input{
+    width: 80%;
+}
+.footer-messege-form textarea{
+    width: 80%;
+}
+.social-accounts{
+
+}
+.foother-connect-detail p{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+}/*responsive scarly-bracket
+
+/* The project is done */
+/* by */
+/* Mursalin Mir */
