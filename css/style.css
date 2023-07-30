@@ -29,7 +29,7 @@ body {
   /* background: #f6c7c7; */
 }
 .activeNavMenu {
-  background: #efeeee;
+  background: #f5f1f1;
 }
 .container {
   max-width: 1400px;
@@ -134,9 +134,10 @@ body {
   position: relative;
   z-index: 1;
   padding: 150px 0px;
-  /* background: linear-gradient(135deg, #ecb6b6, #d6d4a3, #c5ded8),linear-gradient(105deg,#c4f4f3, #c4f4f3, #c4f4f3); */
-  background: white;
-  background-blend-mode: initial;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
 }
 .home-wrapper {
   display: flex;
@@ -317,6 +318,10 @@ body {
   /* background: #c8825f; */
   padding-top: 90px;
   display: flex;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
 }
 .aboutWrap .about-left {
   width: 40%;
@@ -483,6 +488,10 @@ body {
   width: 1536px;
   /* background: red; */
   padding: 95px 0px 0px;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
 }
 .skill-wrapper .section-title {
   text-align: center;
@@ -612,11 +621,17 @@ body {
              services section css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
+#services{
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
+}
 .services-wrap {
   width: 100%;
   height: 800px;
-  background: #ffffff;
   padding: 95px 0px;
+
 }
 .services-wrap .section-title {
   text-align: center;
@@ -724,11 +739,16 @@ body {
              My portfolio section css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-
+#portfolio{
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
+}
 .portfolio-wrap {
-  background: rgb(255, 255, 255);
   height: 900px;
   padding: 90px 0px;
+
 }
 .portfolio-wrap .section-title {
   text-align: center;
@@ -833,11 +853,16 @@ body {
     My Practice projects section css start
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-
+#practice-sec{
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
+}
 .practice-sec-wrap {
-  background: rgb(255, 255, 255);
   height: 900px;
   padding: 90px 0px;
+
 }
 .practice-sec-wrap .section-title {
   text-align: center;
@@ -956,6 +981,10 @@ body {
   /* background: red; */
   height: 900px;
   padding-top: 95px;
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
 }
 
 .testimonial-wrapper .section-title {
@@ -1144,7 +1173,12 @@ body {
              Blogs section css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-
+#blogs{
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc); 
+  background: linear-gradient(to right, #d9a7c7, #fffcdc),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
+}
 .blog-wrapper {
   /* background: red; */
   padding-top: 95px;
@@ -1252,6 +1286,10 @@ body {
 .contact-wrapper {
   padding: 95px 0px;
   /* background-color: rgb(23, 181, 42); */
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
+  background-blend-mode: soft-light;
 }
 .contact-wrapper .section-title {
   text-align: center;
