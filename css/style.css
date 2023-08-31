@@ -1175,8 +1175,8 @@ body {
 */
 #blogs{
   background: #d9a7c7;
-  background: -webkit-linear-gradient(to right, #d9a7c7, #fffcdc); 
-  background: linear-gradient(to right, #d9a7c7, #fffcdc),rgba(255, 255, 255, 0.593); 
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+  background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
   background-blend-mode: soft-light;
 }
 .blog-wrapper {
@@ -1283,13 +1283,15 @@ body {
              Contact section css
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
-.contact-wrapper {
-  padding: 95px 0px;
-  /* background-color: rgb(23, 181, 42); */
+.contact{
   background: #d9a7c7;
   background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
   background: linear-gradient(to right, #fffcdc, #d9a7c7),rgba(255, 255, 255, 0.593); 
   background-blend-mode: soft-light;
+}
+.contact-wrapper {
+  padding: 95px 0px;
+  /* background-color: rgb(23, 181, 42); */
 }
 .contact-wrapper .section-title {
   text-align: center;
