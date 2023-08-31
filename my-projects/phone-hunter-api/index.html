@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Hunter API</title>
+    <!-- daisy UI and tailwind link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome linkup -->
+    <script
+      src="https://kit.fontawesome.com/6d208b1cbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- poppins fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom tailwind class managing -->
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="">
+      <div class="bg-sky-100 h-[650px]">
+        <div
+          class="max-w-screen-xl mx-auto flex items-center justify-between py-7"
+        >
+          <h1 class="text-xl font-bold">Hot Gadgets</h1>
+          <button class="px-5 bg-sky-500 text-white py-3 rounded-md">
+            Sign Up
+          </button>
+        </div>
+        <div class="max-w-screen-xl mx-auto text-center">
+          <h2 class="text-5xl font-bold mt-6">Apple Iphone 13 Pro Max</h2>
+          <p class="mt-6 text-gray-500 leading-loose">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority <br />
+            have suffered alteration in some form, by injected humou.
+          </p>
+          <button class="px-5 bg-sky-500 text-white py-3 rounded-md mt-10">
+            Buy Now
+          </button>
+        </div>
+      </div>
+      <div class="flex gap-12 -mt-64 justify-center">
+        <img
+          class="w-[180px] h-[348px] mt-36"
+          src="photos/iphone-13-pro-max.png"
+          alt=""
+        />
+        <img
+          class="w-[243px] h-[475px] mt-4"
+          src="photos/iphone-13-pro-max.png"
+          alt=""
+        />
+        <img
+          class="w-[180px] h-[348px] mt-36"
+          src="photos/iphone-13-pro-max.png"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- main -->
+    <main class="max-w-screen-xl mx-auto">
+      <section class="">
+        <!-- start search bar -->
+        <div class="mt-28">
+          <h3 class="text-center font-bold text-3xl text-gray-800">
+            Search your phone
+          </h3>
+          <div class="mt-10 w-6/12 mx-auto">
+            <div class="flex items-center bg-gray-200 flex-1 rounded-lg">
+              <i class="fa-solid fa-magnifying-glass px-4 text-gray-500"></i>
+              <input id="SearchIput"
+                class="border text-gray-600 bg-transparent outline-none border-none px-2 py-3.5 text-base font-medium flex-1"
+                type="text"
+                placeholder="Search your phone"
+              />
+              <button onclick="searchValue()"
+                class="bg-sky-500 py-3.5 text-white font-semibold text-base px-8 rounded-lg border-none outline-none"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- end search bar -->
+        <!-- produncts container start -->
+        <div>
+          <!-- spiner -->
+          <div id="loading-spiner" class="py-60 hidden">
+            <div class="flex items-center justify-center">
+            <span class="loading loading-spinner loading-lg"></span>
+            </div>
+          </div>
+          <!-- empty message -->
+          <div id="emptyMessage" class="hidden">
+          <div class="flex justify-center items-center py-40">
+            <h1 class="text-center text-2xl text-gray-400">Your search result is empty?</h1>
+          </div>
+        </div>
+          <!-- items container -->
+          <div id="phonesContainer" class="grid grid-cols-3 mt-20 gap-10 mb-10">
+          </div>
+          <div id="showAllBtn" class="text-center mt-10 mb-5 hidden">
+            <button onclick="showAllMobile()"
+                class="bg-sky-500 py-3.5 text-white font-semibold text-base px-8 rounded-lg border-none outline-none"
+              >
+                Show All
+              </button>
+          </div>
+      </div>
+      <!-- modal start  -->
+      <!-- You can open the modal using ID.showModal() method -->
+      <!-- <button class="btn" onclick="my_modal_4.showModal()">open modal</button> -->
+      <dialog id="showMobileInfo" class="modal">
+        <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+          <div id="modalContainer">
+              <!-- <div class="flex py-10 justify-center items-center rounded-lg bg-gray-200">
+              <img class="w-[170px] h-[200px] rounded-xl" src="${phone.image}" alt="">
+              </div>
+          <div class="">
+            <h3 class="mt-8 text-2xl font-bold">phone name is apple</h3>
+                <p class="text-base mt-4 text-gray-500">There are many variations of passages of available, but the majority have suffered</p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Storage:</span> 128GB/256GB/1TB Storage, No card slot</p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Display-Size:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Chipset:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Memory:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Slug:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Release date:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">Brand:</span></p>
+                <p class="mt-5 text-gray-500"><span class="font-semibold text-gray-600">GPS:</span></p>
+              
+          </div> -->
+          </div>
+          <div class="modal-action">
+            <!-- if there is a button, it will close the modal -->
+            <button class="btn">Close</button>
+          </div>
+        </form>
+      </dialog>
+      <!-- modal end -->
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-sky-100 py-20">
+      <div class="flex justify-between max-w-screen-xl mx-auto">
+        <!-- footer logo -->
+        <div>
+          <h3 class="text-2xl font-bold">Hot Gadgets</h3>
+          <p class="text-sm text-gray-400 mt-2 font-normal">You can definitely work.</p>
+        </div>
+        <!-- footer social icons -->
+        <div>
+          <i class="fa-brands fa-facebook-f bg-white text-blue-700 px-3 py-1 text-base rounded-full mr-3"></i>
+          <i class="fa-brands fa-twitter bg-white text-sky-500 px-2 py-1 text-base rounded-full mr-3"></i>
+          <i class="fa-brands fa-instagram bg-white text-rose-600 px-2 py-1 text-base rounded-full mr-3"></i>
+          <button class="px-5 py-3 bg-sky-500 text-white font-medium text-base rounded-xl mr-3">Join Premium</button>
+        </div>
+
+      </div>
+      <hr class="max-w-screen-xl mx-auto my-7 border-t-gray-300">
+      <div class="flex justify-between max-w-screen-xl mx-auto">
+      <div class="block">
+        <span class="block my-3 font-medium">Product</span> 
+        <a class="link link-hover block my-3">Browse jobs</a> 
+        <a class="link link-hover block my-3">Remote jobs</a> 
+        <a class="link link-hover block my-3">Startup jobs</a> 
+        <a class="link link-hover block my-3">Company jobs</a>
+      </div>
+      <div>
+        <span class="block my-3 font-medium">Popular</span> 
+        <a class="link link-hover block my-3">UIUX Design</a> 
+        <a class="link link-hover block my-3">Product Design</a> 
+        <a class="link link-hover block my-3">Back-End Developer</a> 
+        <a class="link link-hover block my-3">Front-End Developer</a>
+      </div> 
+      <div>
+        <span class="block my-3 font-medium">Resource</span> 
+        <a class="link link-hover block my-3">Faq</a> 
+        <a class="link link-hover block my-3">Support</a> 
+        <a class="link link-hover block my-3">Privacy Policy</a> 
+        <a class="link link-hover block my-3">Terms of Service</a>
+      </div> 
+      <div>
+        <span class="block my-3 font-medium">Company</span> 
+        <a class="link link-hover block my-3">About Us</a> 
+        <a class="link link-hover block my-3">Contact Us</a> 
+        <a class="link link-hover block my-3">Career Tips</a>
+        <a class="link link-hover block my-3">Career</a>
+      </div>
+    </div>
+
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
